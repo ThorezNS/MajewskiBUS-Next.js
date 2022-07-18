@@ -1,0 +1,21 @@
+:root {
+  /* logo */
+  --left-logo-color: #e43131;
+  --right-logo-color: #019ed5;
+  --logo-shadow-color: #cfcfcf;
+  /* background */
+  --bar-bg-color: #302e2c;
+  /* text color */
+  --white: #fff;
+  /* top bar */
+  --top-bar-height: 150px;
+  --top-bar-bg-transparent-color: rgb(48, 46, 44, 0.3);
+  --popup-bg-transparent-color: rgb(48, 46, 44, 0.9);
+  /* bottom bar */
+  --bottom-bar-height: 55%;
+  /* title */
+  --title-lighter-color: #5a5754;
+  /* resolutions */
+  --w-1920: 1920px;
+  --h-1080: 1080px;
+}

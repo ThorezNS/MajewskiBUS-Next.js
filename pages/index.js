@@ -1,9 +1,13 @@
-import styles from '../styles/Home.module.css';
+import TopBar from '../components/TopBar';
+import container from '../styles/Containers.module.css';
 
 export default function Home() {
   return (
-    <div className={styles.container}>
-      <h1>Hello World</h1>
+    <div className={container.main}>
+      <div className={container.firstScreen}>
+        <TopBar />
+      </div>
+      <div className={container.secondScreen}></div>
     </div>
   );
 }

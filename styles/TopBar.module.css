@@ -1,0 +1,38 @@
+.topBar {
+  width: 100%;
+  height: var(--top-bar-height);
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  background-color: var(--top-bar-bg-transparent-color);
+  padding: 1% 1% 0 1%;
+}
+
+.topBar::after {
+  content: '';
+  width: 110%;
+  height: calc(var(--top-bar-height) + 30px);
+  background-color: var(--bar-bg-color);
+  position: absolute;
+  left: -10px;
+  top: -120px;
+  transform: rotate(-3deg);
+  border: solid 2px var(--left-logo-color);
+  z-index: 5;
+}
+
+@media screen and (max-width: 686px) {
+  .topBar {
+    flex-wrap: wrap;
+    height: calc(var(--top-bar-height) + 15px);
+  }
+  .topBar::after {
+    width: 300%;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .topBar::after {
+    width: 500%;
+  }
+}

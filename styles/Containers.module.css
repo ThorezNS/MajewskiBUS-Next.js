@@ -1,0 +1,57 @@
+.main {
+  width: 100vw;
+  max-width: var(--w-1920);
+  height: 200vh;
+  overflow: hidden;
+}
+
+.firstScreen,
+.secondScreen {
+  width: 100%;
+  height: 100vh;
+  max-height: var(--h-1080);
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  background-image: url('/subtle_orange_emboss.webp');
+}
+
+.secondScreen {
+  margin-bottom: var(--bottom-bar-height);
+}
+
+/* .links-and-title-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.contact-container {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 1.5%;
+}
+
+@media screen and (max-width: 1400px) {
+  .contact-container {
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 882px) {
+  .contact-container {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 586px) {
+  .contact-container {
+    flex-direction: column;
+    justify-content: center;
+  }
+} */
