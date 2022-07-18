@@ -1,0 +1,30 @@
+.bus {
+  width: 50%;
+  height: calc(100% - var(--top-bar-height));
+  position: absolute;
+  top: var(--top-bar-height);
+  right: 0;
+  -webkit-box-shadow: inset 15px -18px 68px 26px rgba(227, 227, 227, 1);
+  -moz-box-shadow: inset 15px -18px 68px 26px rgba(227, 227, 227, 1);
+  box-shadow: inset 15px -18px 68px 26px rgba(227, 227, 227, 1);
+  background: url('/majewskibuspicture.png') no-repeat;
+  background-size: cover;
+  opacity: 0.2;
+  z-index: 1;
+}
+
+@media screen and (max-width: 686px) {
+  .bus {
+    top: calc(var(--top-bar-height) + 30px);
+  }
+}
+
+.busInterior {
+  width: 100vw;
+  height: calc(100% - var(--bottom-bar-height));
+  position: absolute;
+  top: 0;
+  background: url('/pexels-steve-aksnes-3723002.jpg') no-repeat center center;
+  background-size: cover;
+  opacity: 0.7;
+}

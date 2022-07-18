@@ -1,3 +1,4 @@
+import BackgroundImage from '../components/BackgroundImage';
 import Container from '../components/Container';
 import TopBar from '../components/TopBar';
 
@@ -6,8 +7,11 @@ export default function Home() {
     <Container main>
       <Container firstScreen>
         <TopBar />
+        <BackgroundImage bus />
       </Container>
-      <Container secondScreen></Container>
+      <Container secondScreen>
+        <BackgroundImage busInterior />
+      </Container>
     </Container>
   );
 }
