@@ -16,7 +16,7 @@ html {
   font-size: 62.5%;
 }
 
-body {
+#__next {
   font-family: 'Baloo Da 2', cursive, arial;
   display: flex;
   justify-content: center;

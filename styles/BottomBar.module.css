@@ -1,0 +1,12 @@
+.bottomBar {
+  width: 100%;
+  height: var(--bottom-bar-height);
+  position: absolute;
+  bottom: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--bar-bg-color);
+  border-top: solid 2px var(--right-logo-color);
+}

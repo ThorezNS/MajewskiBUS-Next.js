@@ -1,5 +1,5 @@
 .main {
-  width: 100vw;
+  width: 100%;
   max-width: var(--w-1920);
   height: 200vh;
   overflow: hidden;
