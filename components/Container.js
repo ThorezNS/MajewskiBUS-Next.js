@@ -1,16 +1,20 @@
-import styles from '../styles/Containers.module.css';
+import styles from '../styles/Container.module.css';
 
 const Container = ({ children, main, firstScreen, secondScreen }) => {
-  let style;
+  let Tag, style;
+
   if (main) {
+    Tag = 'div';
     style = styles.main;
   } else if (firstScreen) {
+    Tag = 'section';
     style = styles.firstScreen;
   } else if (secondScreen) {
+    Tag = 'section';
     style = styles.secondScreen;
   }
 
-  return <div className={style}>{children}</div>;
+  return <Tag className={style}>{children}</Tag>;
 };
 
 export default Container;
