@@ -1,0 +1,78 @@
+.container {
+  width: 200px;
+  height: 45px;
+  position: relative;
+}
+
+.logoLeft,
+.logoRight {
+  position: absolute;
+  font-weight: 600;
+  font-family: Arial, sans-serif;
+  text-shadow: -1px 0 var(--logo-shadow-color), 0 1px var(--logo-shadow-color),
+    1px 0 var(--logo-shadow-color), 0 -1px var(--logo-shadow-color);
+}
+
+.logoLeft {
+  letter-spacing: -1px;
+  z-index: 10;
+}
+
+.logoRight {
+  z-index: 8;
+}
+
+.logoLeftTopBar {
+  font-size: 4rem;
+  color: var(--left-logo-color);
+  animation: 2s linear 0s 1 leftLogoColor;
+}
+
+.logoRightTopBar {
+  top: -6px;
+  left: 162px;
+  font-size: 5rem;
+  color: var(--right-logo-color);
+  animation: 3.5s linear 0s 1 rightLogoColor;
+}
+
+.logoLeftBottomBar {
+  font-size: 2.8rem;
+  color: var(--bar-bg-color);
+}
+
+.logoRightBottomBar {
+  top: -8px;
+  left: 111px;
+  font-size: 4rem;
+  color: var(--bar-bg-color);
+}
+
+@keyframes leftLogoColor {
+  from {
+    color: var(--bar-bg-color);
+  }
+  to {
+    color: var(--left-logo-color);
+  }
+}
+
+@keyframes rightLogoColor {
+  from {
+    color: var(--bar-bg-color);
+  }
+  to {
+    color: var(--right-logo-color);
+  }
+}
+
+@media screen and (max-width: 686px) {
+  .logoLeftTopBar {
+    font-size: 3.5rem;
+  }
+  .logoRightTopBar {
+    top: -3px;
+    left: 141px;
+    font-size: 4rem;
+  }
+}

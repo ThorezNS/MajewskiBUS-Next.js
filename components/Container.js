@@ -1,6 +1,6 @@
 import styles from '../styles/Container.module.css';
 
-const Container = ({ children, main, firstScreen, secondScreen }) => {
+const Container = ({ children, main, firstScreen, secondScreen, contact }) => {
   let Tag, style;
 
   if (main) {
@@ -12,6 +12,9 @@ const Container = ({ children, main, firstScreen, secondScreen }) => {
   } else if (secondScreen) {
     Tag = 'section';
     style = styles.secondScreen;
+  } else if (contact) {
+    Tag = 'div';
+    style = styles.contact;
   }
 
   return <Tag className={style}>{children}</Tag>;
