@@ -1,0 +1,59 @@
+[33mcommit 07f8619e37973408f18c00169cb7e2aee61e4d00[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m)[m
+Author: Maciej_Niemiec <niemiec.maciej@gmail.com>
+Date:   Wed Jul 20 13:30:34 2022 +0200
+
+    add a Logo component
+
+[33mcommit 129a9466ed68896e818ced7804b7b3a1aae6f7a2[m[33m ([m[1;31morigin/main[m[33m)[m
+Author: Maciej_Niemiec <niemiec.maciej@gmail.com>
+Date:   Tue Jul 19 21:08:46 2022 +0200
+
+    implement custom tags in the Container component
+
+[33mcommit 685751c0ac4f46f109271a97d109d95ba97eefe5[m
+Author: Maciej_Niemiec <niemiec.maciej@gmail.com>
+Date:   Tue Jul 19 21:01:39 2022 +0200
+
+    add a BottomBar component and change global styles
+
+[33mcommit 08a08da324fc35952a30adec4b5a9997ed5fd0eb[m
+Author: Maciej_Niemiec <niemiec.maciej@gmail.com>
+Date:   Tue Jul 19 19:49:34 2022 +0200
+
+    add a BottomBar component and change global styles
+
+[33mcommit 926ac159357a0f1c5f829813cb6e807e3b08f57a[m
+Author: Maciej_Niemiec <niemiec.maciej@gmail.com>
+Date:   Mon Jul 18 20:39:52 2022 +0200
+
+    add BackgroundImage component
+
+[33mcommit d13c49e971455d2bf72e0aeba820c3e1e867f9b8[m
+Author: Maciej_Niemiec <niemiec.maciej@gmail.com>
+Date:   Mon Jul 18 17:52:30 2022 +0200
+
+    replace divs with Container component
+
+[33mcommit 0b491cc66a509360c722caf9c5074d8127613c38[m
+Author: Maciej_Niemiec <niemiec.maciej@gmail.com>
+Date:   Mon Jul 18 17:17:00 2022 +0200
+
+    add global styles, style variables, and a TopBar component
+
+[33mcommit c99bdb16402b1056b6772c2d9abcb1493e0314fa[m
+Author: Maciej_Niemiec <niemiec.maciej@gmail.com>
+Date:   Sun Jul 17 16:37:23 2022 +0200
+
+    add metadata with a custom document for the lang attribute
+
+[33mcommit 65aa068c1a41f52ef0ccb9c7620480a19c8d4afc[m
+Author: Maciej_Niemiec <niemiec.maciej@gmail.com>
+Date:   Sun Jul 17 15:27:29 2022 +0200
+
+    first commit
+
+[33mcommit d804f18016fef3054c913d1a4aaefdfeefbbd6c3[m
+Author: Maciej_Niemiec <niemiec.maciej@gmail.com>
+Date:   Sun Jul 17 14:50:07 2022 +0200
+
+    Initial commit from Create Next App
