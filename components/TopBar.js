@@ -2,6 +2,7 @@ import styles from '../styles/TopBar.module.css';
 import Button from './Button';
 import Container from './Container';
 import Logo from './Logo';
+import Title from './Title';
 
 const TopBar = () => {
   return (
@@ -12,6 +13,7 @@ const TopBar = () => {
           <Button text="Rozkład jazdy" />
           <Button text="Bilety" />
         </Container>
+        <Title />
       </Container>
     </header>
   );
