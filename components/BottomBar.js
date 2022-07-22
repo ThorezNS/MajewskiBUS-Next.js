@@ -2,6 +2,7 @@ import styles from '../styles/BottomBar.module.css';
 import Contact from './Contact';
 import Container from './Container';
 import Logo from './Logo';
+import PFRinfo from './PFRinfo';
 
 const BottomBar = () => {
   return (
@@ -10,6 +11,7 @@ const BottomBar = () => {
         <Logo bottom />
         <Contact />
       </Container>
+      <PFRinfo />
     </footer>
   );
 };
