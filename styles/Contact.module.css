@@ -1,0 +1,25 @@
+.contact {
+  margin: 5% 0 0 5%;
+  color: var(--logo-shadow-color);
+  font-size: 2rem;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+}
+
+.item i {
+  width: 30px;
+  color: #fff;
+}
+
+.item:hover i {
+  color: var(--right-logo-color);
+}
+
+@media screen and (max-width: 736px) {
+  .contact {
+    font-size: 1.8rem;
+  }
+}
