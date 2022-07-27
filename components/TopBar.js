@@ -10,8 +10,8 @@ const TopBar = () => {
       <Logo top />
       <Container buttonsAndTitle>
         <Container buttons>
-          <Button text="Rozkład jazdy" />
-          <Button text="Bilety" />
+          <Button timetable text="Rozkład jazdy" />
+          <Button tickets text="Bilety" />
         </Container>
         <Title />
       </Container>
