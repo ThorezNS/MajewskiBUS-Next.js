@@ -1,0 +1,46 @@
+[
+  {
+    "title": "W sprzedaży oferujemy bilety:",
+    "body": [
+      {
+        "paragraph": "",
+        "bullet": [
+          "jednoprzejazdowy",
+          "jednoprzejazdowy ulgowy",
+          "miesięczny",
+          "miesięczny ulgowy"
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Regulamin sprzedaży biletów ulgowych:",
+    "body": [
+      {
+        "paragraph": "Do ulgi 49% przy przejazdach środkami publicznego transportu zbiorowego autobusowego w komunikacji zwykłej i przyspieszonej, na podstawie biletów imiennych miesięcznych szkolnych, są uprawnione następujące osoby:",
+        "bullet": [
+          "dzieci i młodzież w okresie od rozpoczęcia nauki w szkole podstawowej do ukończenia gimnazjum, szkoły ponadpodstawowej lub ponadgimnazjalnej - publicznej lub niepublicznej o uprawnieniach szkoły publicznej, nie dłużej niż do ukończenia 24 roku życia",
+          "studenci do ukończenia 26 roku życia"
+        ]
+      },
+      {
+        "paragraph": "Do ulgi 51% przy przejazdach środkami publicznego transportu zbiorowego autobusowego w komunikacji zwykłej i przyspieszonej, na podstawie imiennych biletów miesięcznych, są uprawnieni:",
+        "bullet": ["studenci do ukończenia 26 roku życia"]
+      },
+      {
+        "paragraph": "Do ulgi 37% przy przejazdach środkami publicznego transportu zbiorowego autobusowego w komunikacji zwykłej, na podstawie biletów imiennych miesięcznych, są uprawnione następujące osoby:",
+        "bullet": [
+          "nauczyciele szkół podstawowych, gimnazjów, szkół ponadpodstawowych i ponadgimnazjalnych - publicznych lub niepublicznych o uprawnieniach szkół publicznych",
+          "nauczyciele akademiccy"
+        ]
+      },
+      {
+        "paragraph": "Do ulgi 78%przy przejazdach środkami publicznego transportu zbiorowego kolejowego oraz autobusowego są uprawnione następujące osoby:",
+        "bullet": [
+          "dzieci i młodzież dotknięte inwalidztwem lub niepełnosprawne - na podstawie biletów jednorazowych lub miesięcznych imiennych",
+          "jedno z rodziców lub opiekun dzieci i młodzieży dotkniętych inwalidztwem lub niepełnosprawnych - na podstawie biletów jednorazowych. Uprawnienie to obejmuje wyłącznie przejazd z miejsca zamieszkania lub miejsca pobytu do przedszkola, szkoły, szkoły wyższej, placówki opiekuńczo-wychowawczej, placówki oświatowo-wychowawczej, specjalnego ośrodka szkolno-wychowawczego, specjalnego ośrodka wychowawczego, ośrodka umożliwiającego dzieciom i młodzieży spełnianie obowiązku szkolnego i obowiązku nauki, ośrodka rehabilitacyjno-wychowawczego, domu pomocy społecznej, ośrodka wsparcia, zakładu opieki zdrowotnej, poradni psychologiczno-pedagogicznej, w tym poradni specjalistycznej, a także na turnus rehabilitacyjny i z powrotem"
+        ]
+      }
+    ]
+  }
+]

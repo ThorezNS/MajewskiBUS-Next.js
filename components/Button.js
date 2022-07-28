@@ -1,6 +1,6 @@
 import styles from '../styles/Button.module.css';
 
-const Button = ({ timetable, tickets, text }) => {
+const Button = ({ timetable, tickets, text, handleToggle }) => {
   let buttonElement;
   const border = <span className={styles.border}></span>;
 
@@ -13,7 +13,7 @@ const Button = ({ timetable, tickets, text }) => {
     );
   } else if (tickets) {
     buttonElement = (
-      <button className={styles.button}>
+      <button onClick={handleToggle} className={styles.button}>
         {text}
         {border}
       </button>
