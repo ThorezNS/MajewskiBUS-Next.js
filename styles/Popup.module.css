@@ -50,8 +50,8 @@
   font-weight: 900;
 }
 
-.container p {
-  margin-bottom: 2%;
+.paragraph {
+  margin-top: 2%;
 }
 
 .active {
@@ -72,8 +72,8 @@
   .title {
     margin-top: 5%;
   }
-  .container p {
-    margin-bottom: 3%;
+  .paragraph {
+    margin-top: 3%;
   }
   .button {
     top: 0.5%;
