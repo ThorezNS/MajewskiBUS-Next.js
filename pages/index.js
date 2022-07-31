@@ -5,6 +5,7 @@ import Container from '../components/Container';
 import Popup from '../components/Popup';
 import TopBar from '../components/TopBar';
 import { useState } from 'react';
+import Messages from '../components/Messages';
 
 export default function Home() {
   const [isActive, setIsActive] = useState(false);
@@ -18,6 +19,7 @@ export default function Home() {
           <Button tickets text="Bilety" handleToggle={handleToggle} />
         </TopBar>
         <Popup isActive={isActive} handleToggle={handleToggle} />
+        <Messages />
         <BackgroundImage bus />
       </Container>
       <Container secondScreen>

@@ -1,0 +1,48 @@
+.container {
+  width: 50%;
+  height: calc(100% - var(--top-bar-height));
+  padding: 1%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.titleContainer i,
+.title {
+  display: inline;
+}
+
+.titleContainer {
+  width: 210px;
+  position: absolute;
+  top: -25px;
+  left: 15px;
+  text-align: center;
+  background-image: url('/subtle_orange_emboss.webp');
+}
+
+.titleContainer i {
+  margin-right: 7px;
+  font-size: 2.2rem;
+  color: var(--left-logo-color);
+}
+
+.title {
+  font-family: 'Alatsi', sans-serif;
+  color: var(--bar-bg-color);
+  font-size: 3rem;
+}
+
+.messages {
+  width: 95%;
+  height: 50%;
+  position: relative;
+  border: var(--bar-bg-color) 2px solid;
+  border-radius: 15px;
+}
+
+@media screen and (max-width: 686px) {
+  .container {
+    height: calc(100% - var(--top-bar-height) - var(--added-height-to-top-bar));
+  }
+}

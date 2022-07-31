@@ -15,7 +15,8 @@
 
 @media screen and (max-width: 686px) {
   .bus {
-    top: calc(var(--top-bar-height) + 30px);
+    top: calc(var(--top-bar-height) + var(--added-height-to-top-bar));
+    height: calc(100% - var(--top-bar-height) - var(--added-height-to-top-bar));
   }
 }
 

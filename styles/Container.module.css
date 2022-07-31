@@ -11,8 +11,6 @@
   height: 100vh;
   max-height: var(--h-1080);
   position: relative;
-  display: flex;
-  flex-direction: column;
   background-image: url('/subtle_orange_emboss.webp');
 }
 

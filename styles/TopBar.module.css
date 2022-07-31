@@ -24,7 +24,7 @@
 @media screen and (max-width: 686px) {
   .topBar {
     flex-wrap: wrap;
-    height: calc(var(--top-bar-height) + 15px);
+    height: calc(var(--top-bar-height) + var(--added-height-to-top-bar));
   }
   .topBar::after {
     width: 300%;
