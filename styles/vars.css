@@ -12,11 +12,13 @@
   --added-height-to-top-bar: 15px;
   --top-bar-bg-transparent-color: rgb(48, 46, 44, 0.3);
   /* popup */
-  --popup-bg-transparent-color: rgb(48, 46, 44, 0.9);
+  --popup-bg-transparent-color: rgb(48, 46, 44, 0.95);
   /* bottom bar */
   --bottom-bar-height: 55%;
   /* title */
   --title-lighter-color: #5a5754;
+  /* message */
+  --message-bg-color: rgba(255, 255, 255, 0.527);
   /* resolutions */
   --w-1920: 1920px;
   --h-1080: 1080px;

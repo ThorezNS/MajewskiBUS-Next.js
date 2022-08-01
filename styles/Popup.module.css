@@ -12,8 +12,14 @@
   background-color: var(--popup-bg-transparent-color);
   font-size: 1.8rem;
   color: var(--white);
+  scrollbar-width: none; /* For Firefox */
+  -ms-overflow-style: none; /* For Internet Explorer and Edge */
   overflow-y: auto;
   z-index: 20;
+}
+
+.container::-webkit-scrollbar {
+  width: 0px; /* For Chrome, Safari, and Opera */
 }
 
 .button {

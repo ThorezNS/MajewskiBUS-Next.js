@@ -35,10 +35,43 @@
 
 .messages {
   width: 95%;
-  height: 50%;
   position: relative;
+  padding: 3% 1% 1% 1%;
   border: var(--bar-bg-color) 2px solid;
   border-radius: 15px;
+}
+
+.wrapper {
+  scrollbar-width: none; /* For Firefox */
+  -ms-overflow-style: none; /* For Internet Explorer and Edge */
+  overflow-y: auto;
+  max-height: 65vh;
+}
+
+.wrapper::-webkit-scrollbar {
+  width: 0px; /* For Chrome, Safari, and Opera */
+}
+
+.message {
+  margin-bottom: 1.5%;
+  padding: 1%;
+  background-color: var(--message-bg-color);
+  border: var(--top-bar-bg-transparent-color) 1px solid;
+  border-radius: 10px;
+}
+
+.message:last-child {
+  margin-bottom: 0;
+}
+
+.date {
+  margin-bottom: 1%;
+  font-family: 'Genos', sans-serif;
+  font-size: 2.6rem;
+}
+
+.text {
+  font-size: 1.7rem;
 }
 
 @media screen and (max-width: 686px) {
