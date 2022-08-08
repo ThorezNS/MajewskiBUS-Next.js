@@ -8,6 +8,7 @@ const Container = ({
   contact,
   buttons,
   buttonsAndTitle,
+  firstScreenContent,
 }) => {
   let Tag, style;
 
@@ -29,6 +30,9 @@ const Container = ({
   } else if (buttonsAndTitle) {
     Tag = 'div';
     style = styles.buttonsAndTitle;
+  } else if (firstScreenContent) {
+    Tag = 'div';
+    style = styles.firstScreenContent;
   }
 
   return <Tag className={style}>{children}</Tag>;

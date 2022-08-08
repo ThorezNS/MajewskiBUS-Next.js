@@ -4,8 +4,9 @@ import Button from '../components/Button';
 import Container from '../components/Container';
 import Popup from '../components/Popup';
 import TopBar from '../components/TopBar';
-import { useState } from 'react';
 import Messages from '../components/Messages';
+import Offer from '../components/Offer';
+import { useState } from 'react';
 
 export default function Home() {
   const [isActive, setIsActive] = useState(false);
@@ -19,7 +20,10 @@ export default function Home() {
           <Button tickets text="Bilety" handleToggle={handleToggle} />
         </TopBar>
         <Popup isActive={isActive} handleToggle={handleToggle} />
-        <Messages />
+        <Container firstScreenContent>
+          <Messages />
+          <Offer />
+        </Container>
         <BackgroundImage bus />
       </Container>
       <Container secondScreen>

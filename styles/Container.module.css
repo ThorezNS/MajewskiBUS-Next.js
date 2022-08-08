@@ -43,6 +43,15 @@
   z-index: 10;
 }
 
+.firstScreenContent {
+  width: 100%;
+  height: calc(100% - var(--top-bar-height));
+  padding: 1.2%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
 @media screen and (max-width: 1400px) {
   .contact {
     width: 80%;
@@ -72,6 +81,10 @@
     margin-left: 0;
     margin-top: -30px;
     gap: 6%;
+  }
+
+  .firstScreenContent {
+    height: calc(100% - var(--top-bar-height) - var(--added-height-to-top-bar));
   }
 }
 
