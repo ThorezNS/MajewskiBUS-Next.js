@@ -38,3 +38,8 @@
 .text:nth-child(odd) {
   margin-left: 3%;
 }
+
+.shadow {
+  transition: text-shadow 0.6s ease-in;
+  text-shadow: 1px 1px 2px var(--left-logo-color);
+}
