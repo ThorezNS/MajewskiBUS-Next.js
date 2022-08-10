@@ -1,29 +1,16 @@
 import styles from '../styles/Offer.module.css';
 import offer from '../data/offer.json';
-import { useEffect, useState } from 'react';
+import useTextShadow from '../hooks/useTextShadow';
 
 const Offer = () => {
-  const [textShadowIndex, setTextShadowIndex] = useState(-1);
-
-  useEffect(() => {
-    const isAnIndexNumberLessThenElements = textShadowIndex < offer.text.length;
-    if (isAnIndexNumberLessThenElements) {
-      setTimeout(() => {
-        setTextShadowIndex(textShadowIndex + 1);
-      }, 1500);
-    }
-  }, [textShadowIndex]);
-
   return (
     <div className={styles.offer}>
       <div className={styles.wrapper}>
         <p className={styles.title}>{offer.title}</p>
-        {offer.text.map((row, i) => {
+        {offer.text.map((row, i, a) => {
           return (
             <p
-              className={`${styles.text} ${
-                i === textShadowIndex ? styles.shadow : ''
-              }`}
+              className={`${styles.text} ${useTextShadow(i, a, styles.shadow)}`}
               key={i}
             >
               {row}
