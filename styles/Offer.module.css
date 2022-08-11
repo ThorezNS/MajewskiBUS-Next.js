@@ -43,3 +43,38 @@
   transition: text-shadow 0.6s ease-in;
   text-shadow: 1px 1px 2px var(--left-logo-color);
 }
+
+@media screen and (max-width: 1276px) {
+  .title {
+    font-size: 2.7rem;
+  }
+  .text {
+    font-size: 2.2rem;
+  }
+}
+
+@media screen and (max-width: 988px) {
+  .offer {
+    width: 95%;
+    max-height: 30vh;
+  }
+  .title {
+    margin-bottom: 4%;
+  }
+  .wrapper {
+    width: 95%;
+  }
+}
+
+@media screen and (max-width: 686px) {
+  .title {
+    font-size: 2.3rem;
+  }
+  .text {
+    font-size: 1.8rem;
+    margin-bottom: 1.5%;
+  }
+  .text::before {
+    font-size: 1.7rem;
+  }
+}

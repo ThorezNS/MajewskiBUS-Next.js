@@ -1,3 +1,11 @@
+.messages {
+  width: 45%;
+  position: relative;
+  padding: 1.5% 0.5% 0.5% 0.5%;
+  border: var(--bar-bg-color) 2px solid;
+  border-radius: 15px;
+}
+
 .titleContainer i,
 .title {
   display: inline;
@@ -22,14 +30,6 @@
   font-family: 'Alatsi', sans-serif;
   color: var(--bar-bg-color);
   font-size: 3rem;
-}
-
-.messages {
-  width: 45%;
-  position: relative;
-  padding: 1.5% 0.5% 0.5% 0.5%;
-  border: var(--bar-bg-color) 2px solid;
-  border-radius: 15px;
 }
 
 .wrapper {
@@ -64,4 +64,38 @@
 
 .text {
   font-size: 1.7rem;
+}
+
+@media screen and (max-width: 1276px) {
+  .messages {
+    padding: 2.2% 0.8% 0.8% 0.8%;
+  }
+  .message {
+    margin-bottom: 1.5%;
+    padding: 1.5%;
+  }
+}
+
+@media screen and (max-width: 988px) {
+  .messages {
+    width: 95%;
+  }
+  .wrapper {
+    max-height: 25vh;
+  }
+}
+
+@media screen and (max-width: 686px) {
+  .title {
+    font-size: 2.7rem;
+  }
+  .messages {
+    padding: 4% 1.2% 1.2% 1.2%;
+  }
+  .date {
+    font-size: 2.2rem;
+  }
+  .text {
+    font-size: 1.6rem;
+  }
 }
