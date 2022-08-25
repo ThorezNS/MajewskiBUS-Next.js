@@ -1,0 +1,43 @@
+.wrapper {
+  width: 100%;
+  height: calc(100% - var(--bottom-bar-height));
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.text {
+  position: relative;
+  font-size: 4.6rem;
+  letter-spacing: 2px;
+  font-family: 'Alatsi', sans-serif;
+  font-weight: 900;
+  color: var(--white);
+  text-shadow: -1px 0 4px var(--right-logo-color),
+    0 1px 4px var(--right-logo-color), 1px 0 4px var(--right-logo-color),
+    0 -1px 4px var(--right-logo-color);
+  opacity: 0.95;
+  z-index: 15;
+}
+
+.text::before {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  height: 20%;
+  content: '';
+  background-color: var(--right-logo-color);
+  border-radius: 10px;
+  -webkit-box-shadow: 0px 0px 5px 5px var(--right-logo-color);
+  -moz-box-shadow: 0px 0px 5px 5px var(--right-logo-color);
+  box-shadow: 0px 0px 5px 5px var(--right-logo-color);
+  opacity: 0.45;
+  z-index: -1;
+}
+
+.years {
+  font-size: 5.2rem;
+  text-shadow: -1px 0 4px var(--left-logo-color),
+    0 1px 4px var(--left-logo-color), 1px 0 4px var(--left-logo-color),
+    0 -1px 4px var(--left-logo-color);
+}

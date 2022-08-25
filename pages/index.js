@@ -7,6 +7,7 @@ import TopBar from '../components/TopBar';
 import Messages from '../components/Messages';
 import Offer from '../components/Offer';
 import { useState } from 'react';
+import YearsCounter from '../components/YearsCounter';
 
 export default function Home() {
   const [isActive, setIsActive] = useState(false);
@@ -27,6 +28,7 @@ export default function Home() {
         <BackgroundImage bus />
       </Container>
       <Container secondScreen>
+        <YearsCounter />
         <BottomBar />
         <BackgroundImage busInterior />
       </Container>
