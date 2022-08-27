@@ -2,6 +2,8 @@
   width: 100%;
   max-width: var(--w-1920);
   height: 200vh;
+  min-height: calc(var(--h-832) * 2);
+  max-height: calc(var(--h-832) * 4);
   overflow: hidden;
 }
 
@@ -9,7 +11,8 @@
 .secondScreen {
   width: 100%;
   height: 100vh;
-  max-height: var(--h-1080);
+  min-height: var(--h-832);
+  max-height: calc(var(--h-832) * 2);
   position: relative;
   background-image: url('/subtle_orange_emboss.webp');
 }
