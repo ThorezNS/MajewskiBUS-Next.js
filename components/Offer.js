@@ -1,6 +1,6 @@
 import styles from '../styles/Offer.module.css';
 import offer from '../data/offer.json';
-import useTextShadow from '../hooks/useTextShadow';
+import getTextShadow from '../helpers/getTextShadow';
 
 const Offer = () => {
   return (
@@ -10,7 +10,7 @@ const Offer = () => {
         {offer.text.map((row, i, a) => {
           return (
             <p
-              className={`${styles.text} ${useTextShadow(i, a, styles.shadow)}`}
+              className={`${styles.text} ${getTextShadow(i, a, styles.shadow)}`}
               key={i}
             >
               {row}

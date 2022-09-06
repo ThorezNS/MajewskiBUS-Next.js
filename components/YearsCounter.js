@@ -1,5 +1,5 @@
 import styles from '../styles/YearsCounter.module.css';
-import { getNumberOfYears } from '../helpers/getNumberOfYears';
+import getNumberOfYears from '../helpers/getNumberOfYears';
 
 const YearsCounter = () => {
   const year = getNumberOfYears(2008);

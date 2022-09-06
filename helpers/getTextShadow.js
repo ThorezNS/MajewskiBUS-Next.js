@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
 
-const useTextShadow = (index, array, className) => {
+const getTextShadow = (index, array, className) => {
   const [shadowIndex, setShadowIndex] = useState(-1);
 
   useEffect(() => {
@@ -17,4 +17,4 @@ const useTextShadow = (index, array, className) => {
   return shadowClassName;
 };
 
-export default useTextShadow;
+export default getTextShadow;

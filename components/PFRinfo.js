@@ -7,8 +7,8 @@ const PFRinfo = () => {
       <p className={styles.text}>
         Przedsiębiorca uzyskał subwencję finansową w ramach programu rządowego
         <span>
-          "Tarcza Finansowa 2.0 Polskiego Fundusz Rozwoju dla Mikro, Małych i
-          Średnich Firm"
+          &quot;Tarcza Finansowa 2.0 Polskiego Fundusz Rozwoju dla Mikro, Małych
+          i Średnich Firm&quot;
         </span>
         , udzieloną przez PFR SA.
       </p>

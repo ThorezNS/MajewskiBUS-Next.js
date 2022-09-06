@@ -9,7 +9,7 @@ export default function Document() {
         <NextScript />
         <script
           src="https://kit.fontawesome.com/3b057449d3.js"
-          crossorigin="anonymous"
+          crossOrigin="anonymous"
         ></script>
       </body>
     </Html>

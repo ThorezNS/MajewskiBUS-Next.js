@@ -20,6 +20,7 @@ const Contact = () => {
         <a
           href="https://www.google.com/maps/place/Podegrodzie+243/"
           target="_blank"
+          rel="noreferrer"
         >
           Podegrodzie 243, 33-386 Podegrodzie
         </a>
