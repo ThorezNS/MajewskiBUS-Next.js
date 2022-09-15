@@ -14,7 +14,7 @@
 }
 
 .logoLeft {
-  letter-spacing: -1px;
+  letter-spacing: -0.1rem;
   z-index: 10;
 }
 
@@ -29,8 +29,8 @@
 }
 
 .logoRightTopBar {
-  top: -6px;
-  left: 162px;
+  top: -0.6rem;
+  left: 16.2rem;
   font-size: 5rem;
   color: var(--right-logo-color);
   animation: 3.5s linear 0s 1 rightLogoColor;
@@ -42,8 +42,8 @@
 }
 
 .logoRightBottomBar {
-  top: -8px;
-  left: 111px;
+  top: -0.8rem;
+  left: 11.1rem;
   font-size: 4rem;
   color: var(--bar-bg-color);
 }
@@ -71,8 +71,8 @@
     font-size: 3.5rem;
   }
   .logoRightTopBar {
-    top: -3px;
-    left: 141px;
+    top: -0.3rem;
+    left: 14.1rem;
     font-size: 4rem;
   }
 }
