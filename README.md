@@ -1,6 +1,23 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Welcome to MajewskiBus
+
+<img src="https://raw.githubusercontent.com/ThorezNS/images-repo/main/majewski-bus/logo.png" alt="majewski-bus logo" />
+
+MajewskiBus is a single-page, information website made for a private company that transports people.
+
+The website features a pop-up window with information about tickets, a window with current messages, contact information and a calculator showing the number of years the company has been in operation.
+
+Main Website : <a href="https://majewski-bus.netlify.app/">MajewskiBus</a>
+
+## Technologies Used
+
+- CSS Modules
+- JavaScript
+- React.js
+- Next.js
 
 ## Getting Started
+
+This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 First, run the development server:
 
@@ -10,25 +27,24 @@ npm run dev
 yarn dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Project Status
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+Complete
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+## Room for Improvement
+If you encounter a bug, or have a request for a new feature, please open a [New Issue](https://github.com/ThorezNS/MajewskiBUS-Next.js/issues).
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+## Screenshots
 
-## Learn More
+<img alt="Screenshot" src="https://raw.githubusercontent.com/ThorezNS/images-repo/main/majewski-bus/page-1.png">
 
-To learn more about Next.js, take a look at the following resources:
+<img alt="Screenshot" src="https://raw.githubusercontent.com/ThorezNS/images-repo/main/majewski-bus/page-2.png">
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+<img alt="Screenshot" src="https://raw.githubusercontent.com/ThorezNS/images-repo/main/majewski-bus/page-3.png">
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## Contact
 
-## Deploy on Vercel
+Created by **niemiec.maciej@gmail.com** - feel free to contact me!
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## License
+This license applies only to the use of the Software for non-commercial purposes. Any use of the Software for commercial purposes is strictly prohibited.
